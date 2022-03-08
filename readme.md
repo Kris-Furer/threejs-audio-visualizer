@@ -11,4 +11,9 @@ npm run dev
 
 # In the browser click start engines then activate the sample you want to play
 
-Three.js Starter template Courtesy of Bruno Simon of https://threejs-journey.xyz/
+# Screenshots
+![screenshot](av-screenshot.png)
+
+![screenshot](av-screenshot-2.png)
+
+Three.js Starter template Courtesy of Bruno Simon of https://threejs-journey.xyz/add
