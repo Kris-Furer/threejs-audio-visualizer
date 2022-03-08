@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100vh;
+  cursor: grab;
+  color: white;
+  font-family: 'Major Mono Display', monospace;
+}
+
+body {
+  max-width: 100%;
+  max-height: 100%;
+  background-color: #0b0b0b;
+}
+
+h1 {
+  position: fixed;
+  width: 100%;
+  margin: auto;
+  color: white;
+  font-size: 140px;
+}
+
+section {
+  height: 100vh;
+}
+
+.webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+}
+
+.playBtn {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: center;
+  width: 140px;
+  margin: 10px;
+  padding: 25px 25px;
+  transition: .5s all ease;
+  text-align: center;
+  color: #e8e8e8;
+  border-radius: 5px;
+  background-color: #272930;
+}
+
+.playBtn:hover, .active {
+  color: #1b1b1b;
+  background-color: #d5d5d5;
+}
+.controls {
+  position: absolute;
+  z-index: 1000;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+}
